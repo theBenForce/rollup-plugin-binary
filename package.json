@@ -1,0 +1,21 @@
+{
+  "name": "rollup-plugin-binary",
+  "version": "1.0.0",
+  "description": "Replace readFileSync with the actual contents of files",
+  "main": "dist/index.js",
+  "repository": "https://github.com/theBenForce/rollup-plugin-binary.git",
+  "author": "Ben Force <benforce@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^3.0.6",
+    "@semantic-release/commit-analyzer": "^6.3.3",
+    "@semantic-release/github": "^5.5.5",
+    "@semantic-release/npm": "^5.3.4",
+    "@semantic-release/release-notes-generator": "^7.3.5",
+    "@types/node": "^12.12.21",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "semantic-release": "^15.13.31",
+    "typescript": "^3.7.3"
+  }
+}
